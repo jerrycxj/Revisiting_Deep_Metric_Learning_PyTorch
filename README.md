@@ -1,7 +1,7 @@
 ```
 (1) conda create -n DL python=3.9
 (2) conda activate DL
-(3) conda install faiss-gpu pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+(3) conda install faiss-gpu=1.7.3 pytorch=1.12.1 torchvision=0.13.1 torchaudio=0.12.1 cudatoolkit=11.3 -c pytorch
 (4) conda install matplotlib scipy scikit-learn scikit-image tqdm pandas pillow
 (5) pip install wandb pretrainedmodels
 (6) Run the scripts!
